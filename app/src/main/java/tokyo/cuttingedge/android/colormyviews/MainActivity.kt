@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             listOf(box_one_text, box_two_text, box_three_text,
             box_four_text, box_five_text, constraint_layout,
                 red_button, yellow_button, green_button)
+
         clickableViews.map{it.setOnClickListener{makeColored(it)}}
     }
 
